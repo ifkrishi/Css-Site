@@ -1,0 +1,162 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #FDCEB9;
+}
+
+.top-container{
+  background-color: #FDCEB9;
+  position: relative;
+  padding-top: 50px;
+}
+
+.middle-container{
+  background-color: white;
+  padding: 30px;
+}
+
+.bottom-container{
+  background-color: #7897AB;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+h1{
+  line-height: 2;
+  margin: 20px;
+  padding-top: 100px;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #D885A3;
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  color: #D885A3;
+  font-weight: normal;
+
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color: #7897AB;
+  font-size: 2em;
+
+}
+
+.top-cloud{
+  position: absolute;
+  top: 100px;
+  right: 400px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  left: 400px;
+}
+
+.profile-img{
+  border-radius: 100%;
+  height: 250px;
+  width: 250px;
+}
+
+.skill-first{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-second{
+  border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile{
+  padding-bottom: 50px;
+}
+
+.skills{
+  padding-top: 50px;
+}
+
+.skill-row{
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+
+}
+
+.contact-me{
+  padding: 70px;
+}
+
+.footer-link{
+  padding: 40px;
+}
+
+.license{
+  padding-top: 40px;
+  color: black;
+}
+
+hr{
+  border-style: dotted;
+  border-top: 0;
+  border-width: 10px;
+  width: 10%;
+  border-color: #7897AB;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  color: #FDCEB9;
+}
+
+a:hover{
+  background: #7897AB;
+  color: #D885A3;
+}
+
+.btn {
+  margin-top: 40px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FDCEB9;
+   font-family: Garamond;
+   font-size: 23px;
+   font-weight: 100;
+   padding: 20px;
+   background-color: #7897AB;
+   -webkit-box-shadow: inset 0 0 5px 1px #FDCEB9;
+   -moz-box-shadow: inset 0 0 5px 1px #FDCEB9;
+   box-shadow: inset 0 0 5px 1px #FDCEB9;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #D885A3;
+   border: solid #D885A3 0;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+.profile-description{
+  width: 40%;
+  margin: 0 auto;
+}
